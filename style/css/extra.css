@@ -1,0 +1,30 @@
+/*in het midden krijgen op het scherm horizontaal & verticaal*/
+.outer {
+    display: table;
+    position: absolute;
+    height:Calc(100% - 82px);
+    width: 50%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    font-family: 'Viga', sans-serif;
+    border:2px solid;
+    border-style: none solid none solid;
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    line-height:40px;
+}
+.firstLetter{
+    color:#71B6CD;
+    display:inline;
+}
+.finishLetter{
+    
+    display:inline;
+}

@@ -1,0 +1,186 @@
+body{
+    font-family: 'Viga', sans-serif;
+    background: #f8f8f8;
+    margin:0;
+}
+a:hover{
+    cursor:pointer;
+    color:#71B6CD;
+}
+#buffer{
+    height:41px;
+    width:100%;
+}
+#popularpage{
+    /*margin: 3px;*/
+    position: absolute;
+    display: block;
+    top: 100px;
+    width: 60%;
+    margin-bottom: 40px;
+    /*border: solid;*/
+    /*border-color: red;*/
+    /*border-width: 1px;*/
+    left: 20%;
+}
+
+#popularpage h1{
+    text-align: center;
+}
+
+.half{
+    width:Calc(50% - 1px);
+    height:Calc(100% - 41px);
+    float:left;
+}
+.left{
+    border-right:1px #a1a1a1 solid;
+}
+.right{
+    border-left:1px #71B6CD solid;
+}
+.inner label{
+    font-size:20px;
+}
+.inner input{
+    font-size:20px;
+    border:#71B6CD solid 1px;
+    color:#000000;
+}
+.inner .submit{
+    font-family: 'Viga', sans-serif;
+    border:solid #71B6CD 1px;
+    background:#d8d8d8;
+}
+.inner .submit:hover{
+    color:#71B6CD;
+    background:#f8f8f8;
+    cursor:pointer;
+}
+.inner .forgot{
+    color:#71B6CD;
+}
+#browsepage{
+    position: absolute;
+    display: block;
+    top: 100px;
+    width: 60%;
+    /*border: solid;*/
+    /*border-color: red;*/
+    /*border-width: 1px;*/
+    left: 20%;
+    height: 800px;
+}
+
+#browsepage h1{
+    text-align: center;
+}
+
+#browsesetting{
+    position: absolute;
+    left: 35%;
+    width: 30%;
+  height: 100px;
+  margin: 1em;
+  /*border: solid;*/
+}
+
+.browsesearch{
+    position: absolute;
+    left: 30%;
+}
+
+#browsesetting p{
+    
+    display: inline-block;
+}
+
+#home{
+    width:768px;
+    height: Calc(100% - 241px);
+    margin: 100px auto;
+    text-align:center;
+}
+#home .homeButton{
+    border:#71B6CD 1px solid;
+    padding:2px 5px;
+    margin:5px;
+    background:#d8d8d8;
+}
+#home .homeButton:hover{
+    color:#71B6CD;
+    background:#f8f8f8;
+    cursor:pointer;
+}
+#home .homeButtons{
+    margin-top: 20px;
+    height:200px;
+}
+#home .homeMain{
+    
+    font-size:21px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+.tooltip .tooltiptext {
+    width: 320px;
+    top: 100%;
+    left: 50%; 
+    margin-left: -160px;
+}
+
+.postcontent{
+    margin: 5px;
+    background-color: #AEC5CB;
+    border: solid 1px;
+    /*word-wrap: break-word;*/
+    white-space: pre-line;
+}
+
+pre{
+    /*max-width: 60%;*/
+}
+
+.popularshow{
+    margin: 0px 5px;
+    left: 90%; 
+}
+
+/*upload page*/
+.deletebutton{
+    float: right;
+}
+
+.contentdelete{
+    
+}

@@ -1,0 +1,23 @@
+#footer {
+    font-family: 'Viga', sans-serif;
+    font-size: 12px;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 40px;
+    /*margin: 0 auto;*/
+    border-top: #d8d8d8 1px solid;
+
+}
+
+.footerContent{
+    width:100%;
+    text-align:center;
+    margin: 10px 0px;
+}
+.footerContent p{
+    display:inline;
+}
